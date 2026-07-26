@@ -90,7 +90,7 @@ streamlit run app.py
 
 ## Consulta realizada
 
-![Consulta](Imagenes/consulta.PNG)
+![Consulta](Imagenes/Consulta.PNG)
 
 ---
 
