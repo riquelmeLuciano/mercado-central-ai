@@ -1,0 +1,19 @@
+# Entorno virtual
+.venv/
+
+# Base vectorial
+chroma_db/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Configuración de VS Code
+.vscode/
+
+# Variables de entorno
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
