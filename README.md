@@ -4,26 +4,22 @@ Asistente inteligente basado en IA para consultar documentación interna de un s
 
 ## Arquitectura de la solución
 ```text
-   Usuario
-      │
-      ▼
-  Streamlit
-      │
-      ▼
-  LangChain
-      │
-      ▼
-   ChromaDB
-      │
- Recupera los documentos más relevantes
-      │
-      ▼
-  Qwen 2.5 (Ollama)
-      │
- Genera la respuesta utilizando únicamente el contexto recuperado
-      │
-      ▼
- Respuesta + fuentes
+            Usuario
+               │
+               ▼
+         Streamlit (Interfaz)
+               │
+               ▼
+      LangChain (Orquestación)
+               │
+               ▼
+      ChromaDB (Búsqueda semántica)
+               │
+               ▼
+      Qwen 2.5 3B (Ollama)
+               │
+               ▼
+      Respuesta + Fuentes
 ```
 
 ## Estructura
@@ -70,15 +66,19 @@ mercado-central-ai/
 - Respuestas con referencia al documento y página.
 - Boton para borrar conversación. 
 
-## Ejecución
+## Ejecución de forma local
 
-Crear la base vectorial
+### 1. Crear la base vectorial
 
+```bash
 python crear_base.py
+```
 
-Ejecutar la aplicación
+### 2. Ejecutar la aplicación
 
+```bash
 streamlit run app.py
+```
 
 # Capturas de la aplicación
 
