@@ -3,7 +3,7 @@
 Asistente inteligente basado en IA para consultar documentación interna de un supermercado mediante técnicas RAG (Retrieval-Augmented Generation).
 
 ## arquitectura de la solución
-
+```text
    Usuario
       │
       ▼
@@ -24,10 +24,10 @@ Asistente inteligente basado en IA para consultar documentación interna de un s
       │
       ▼
  Respuesta + fuentes
-
+```
 
 ## Estructura
-
+```text
 mercado-central-ai/
 │
 ├── app.py                   ---> Interfaz principal desarrollada con Streamlit.
@@ -52,9 +52,9 @@ mercado-central-ai/
 ├── Documentos/              ---> Contiene los documentos fuente utilizados por el sistema RAG
 ├── chroma_db/               ---> Base de datos vectorial donde se almacenan los embeddings
 └── .venv/                   ---> Entorno virtual con todas las librerías del proyecto.
+```
 
 ## Tecnologías
-
 - Python
 - Streamlit
 - LangChain
