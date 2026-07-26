@@ -2,7 +2,7 @@
 
 Asistente inteligente basado en IA para consultar documentación interna de un supermercado mediante técnicas RAG (Retrieval-Augmented Generation).
 
-## arquitectura de la solución
+## Arquitectura de la solución
 ```text
    Usuario
       │
@@ -84,13 +84,13 @@ streamlit run app.py
 
 ## Pantalla principal
 
-![Pantalla principal](Imagenes/inicio.png)
+![Pantalla principal](Imagenes/inicio.PNG)
 
 ---
 
 ## Consulta realizada
 
-![Consulta](Imagenes/consulta.png)
+![Consulta](Imagenes/consulta.PNG)
 
 ---
 
